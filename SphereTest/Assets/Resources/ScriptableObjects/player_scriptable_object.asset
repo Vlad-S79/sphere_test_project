@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb83513f8e61464091ab8c101910ce6a, type: 3}
+  m_Name: player_scriptable_object
+  m_EditorClassIdentifier: 
+  player: {fileID: 8663985607706579126, guid: 8c5446525e68b4ff8bf3849769eedcbb, type: 3}
+  bullet: {fileID: 4908010586912283744, guid: 33ca5ebafd70d4abb9e872af0d37724e, type: 3}
+  playerPath: {fileID: 4996345627225371037, guid: d00d42b8d680d44d0b91397f0dfdfd4e, type: 3}
+  maxPlayerScale: 1.8
+  minPlayerScale: 0.5
+  minBulletScale: 0.2
+  bulletScaleSpeed: 1.3
+  playerScaleSpeed: 0.3
+  playerStartOffset: -2.8
+  pathOffset: -10
+  finalJumpSize: {x: 2, y: 1}
+  finalJumpTimeSeconds: 0.5
+  bulletSpeed: 20

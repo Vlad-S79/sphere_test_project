@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd9a53b2b85644b4a075929dd1f9a9b2, type: 3}
+  m_Name: level_scriptable_object
+  m_EditorClassIdentifier: 
+  ground: {fileID: 3356475616412419297, guid: 865ed0ca6249f49ab9642f930e80ca78, type: 3}
+  tree: {fileID: 2036781637474056357, guid: 735f812abdf58475b85803ae69d8d420, type: 3}
+  checkPoint: {fileID: 8347186481560917497, guid: 1736304200e824763bdd80d1588adbe5, type: 3}
+  door: {fileID: 9167515327997239215, guid: c63ef3377300344358385fc307804945, type: 3}
+  pointAmount: 0
+  sizeLevelToPoint: 8
+  checkPointSize: {x: 2, y: 2}
+  doorSize: {x: 1, y: 2}
+  defaultLevelWith: 20
+  cellTreeSize: 0.75
+  groundTextureScaler: 10
+  offsetBeforeLevel: 10
+  offsetAfterLevel: 10
+  gameLevelSizeWith: 2
+  treeParticle: {fileID: 2326541704419460801, guid: 5772343c6b3314a38b13a60f630f5806, type: 3}
+  treeAnimTimeSeconds: 0.1
+  treeFirstColor: {r: 0.043137256, g: 0.7254902, b: 0.29411766, a: 1}
+  treeSecondColor: {r: 0.99215686, g: 0.5019608, b: 0.03137255, a: 1}
